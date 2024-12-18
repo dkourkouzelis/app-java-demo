@@ -5,3 +5,5 @@ WORKDIR /app
 COPY target/endor-java-webapp-demo.jar /app/endor-java-webapp-demo.jar
 
 ENTRYPOINT ["java", "-jar", "endor-java-webapp-demo.jar"]
+
+
