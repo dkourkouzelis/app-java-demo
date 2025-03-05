@@ -41,4 +41,4 @@ jobs:
       security-events: write
     with:
       git-url: "https://github.com/nmichalov/app-java-demo.git"
-      namespace: nate-learn.testb #${{ matrix.projects.namespace }}
+      namespace: diamantis.testb #${{ matrix.projects.namespace }}

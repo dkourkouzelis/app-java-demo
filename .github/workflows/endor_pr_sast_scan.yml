@@ -31,7 +31,7 @@ jobs:
     - name: Endor Labs Scan Pull Request
       uses: endorlabs/github-action@v1
       with:
-        namespace: 'nate-learn'
+        namespace: 'diamantis'
         scan_dependencies: false
         scan_sast: true
         pr: true
