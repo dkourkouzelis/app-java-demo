@@ -26,6 +26,7 @@ jobs:
       uses: endorlabs/github-action@v1.1.7
       with:
         namespace: 'diamantis' 
+        api: https://api.staging.endorlabs.com
         scan_dependencies: true
         scan_secrets: true
         pr: false
